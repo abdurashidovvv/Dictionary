@@ -1,0 +1,1 @@
+package com.abdurashidov.dictionary.retrofitimport com.abdurashidov.dictionary.models.ApiResponseimport retrofit2.http.GETimport retrofit2.http.Pathinterface ApiService {    @GET("entries/en/{word}")    suspend fun getMeaning(@Path("word") word:String):List<ApiResponse>}

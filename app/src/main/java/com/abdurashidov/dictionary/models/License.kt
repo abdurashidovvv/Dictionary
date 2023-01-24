@@ -1,0 +1,1 @@
+package com.abdurashidov.dictionary.modelsdata class License(    val name: String,    val url: String)

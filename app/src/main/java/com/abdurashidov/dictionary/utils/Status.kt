@@ -1,0 +1,1 @@
+package com.abdurashidov.dictionary.utilsenum class Status {    LOADING,    ERROR,    SUCCESS}

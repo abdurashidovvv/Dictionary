@@ -1,0 +1,1 @@
+package com.abdurashidov.dictionary.repositoryimport com.abdurashidov.dictionary.retrofit.ApiServiceclass DictionaryRepository(val apiService: ApiService) {    suspend fun getMeaning(word:String)=apiService.getMeaning(word)}

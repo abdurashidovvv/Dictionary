@@ -1,0 +1,1 @@
+package com.abdurashidov.dictionary.modelsclass WordModel : ArrayList<ApiResponse>()
